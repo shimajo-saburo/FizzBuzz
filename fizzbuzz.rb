@@ -1,13 +1,13 @@
 for num in 1..30 do
-    if num%3==0 then
-        if num%5==0 then
-            print("FizzBuzz", "\n")
+    if num % 3 == 0 then
+        if num % 5 == 0 then
+            puts("FizzBuzz")
         else
-            print("Fizz", "\n")
+            puts("Fizz")
         end
-    elsif num%5==0 then 
-        print("Buzz", "\n")
+    elsif num % 5 == 0 then 
+        puts("Buzz")
     else 
-        print(num,"\n")
+        puts(num)
     end
 end
